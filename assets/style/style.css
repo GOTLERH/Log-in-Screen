@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../pic/bgimage.jpg);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login-form {
+  background-color: #fff;
+  padding: 20px;
+  border: solid white 2px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: white;
+}
+
+.input-group input[type="text"]:hover,
+.input-group input[type="password"]:hover{
+  background-color: white;
+  color: black;
+}
+
+.input-group input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+.input-check {
+  padding: 5px;
+  margin: 5px;
+}
+.input-group button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #a6aba6;
+  color: #ffffff;
+}
+
+.input-group button:hover {
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+}
